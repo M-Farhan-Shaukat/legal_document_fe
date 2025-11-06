@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p, h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+.privacy-section {
+    padding: 96px 60px 89px;
+    background-color: #ffffff;
+    .custome-container{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .privacy-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .illustration-wrapper{
+        height: 205px;
+        width: 100%;
+        margin-bottom: 7px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .left-column,
+    .right-column{
+        width: 50%;
+    }
+    .right-column{
+        padding-left: 32px;
+        .btn--link{
+            padding: 6px 8px;
+            margin-top: 0;
+        }
+    }
+    .privacy-content {
+        .privacy-list {
+            list-style: none;
+            padding: 0 12px;
+            margin: 0;
+            text-align: left;
+            padding-bottom: 3px;
+            .privacy-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 18px;
+                margin-bottom: 23px;
+                
+        
+              .check-icon {
+                color: #1b0f4a;
+                font-size: 21px;
+                margin-top: 2px;
+                flex-shrink: 0;
+              }
+          
+              p {
+                margin: 0;
+                color: #2c1a4c;
+                font-size: 17.6px;
+                line-height: 23px;
+                font-family: 'freighttextprfreighttextproBk';
+              }
+            }
+          }
+          .generic-description {
+            padding-bottom: 24px;
+          }
+          .generic-heading{
+            margin-bottom: 24px;
+          }
+          .generic-label{
+            line-height: 22px;
+          }
+        }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .privacy-container{
+        flex-direction: column;
+        .right-column,
+        .left-column{
+            width: 100%;
+            max-width: 650px;
+            margin: 0 auto;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .left-column{
+            margin-bottom: 48px;
+        }
+        .generic-label{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+@media screen and (max-width: 786px) {
+    .privacy-section{
+        padding: 96px 32px;
+    }
+}

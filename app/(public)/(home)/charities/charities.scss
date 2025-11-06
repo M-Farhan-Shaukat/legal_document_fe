@@ -1,0 +1,204 @@
+// section {
+//   background: linear-gradient(rgb(241, 231, 213) 100%, rgb(250, 245, 236) 50%);
+//   margin-top: 73px;
+// }
+
+// .container {
+//   max-width: 1100px;
+//   margin: 0 auto;
+//   padding: 5rem 0;
+
+//   .charity-box {
+//     &.digital-charity-mediums {
+//       max-width: 517px;
+//       margin: 0 auto;
+//       text-align: center;
+
+//       .info-text-content {
+//         color: #221c54;
+
+//         h1 {
+//           font-size: 3rem;
+//           line-height: 1.22;
+//           letter-spacing: -0.07rem;
+//           font-family: 'ffMark', 'ffMark Fallback', sans-serif;
+//           margin-top: -0.2rem;
+//           margin-bottom: 1rem;
+//           max-width: 40rem;
+//         }
+
+//         span {
+//           margin: 0;
+//           width: 100%;
+//           padding-bottom: 0.76rem;
+//           display: block;
+//           font-weight: 700;
+//           font-size: 0.88rem;
+//           font-family: 'roboto', 'roboto Fallback', sans-serif;
+//           text-align: center;
+//         }
+
+//         p {
+//           font-size: 1.1rem;
+//           font-family: 'freight', 'freight Fallback', serif;
+//           font-weight: 400;
+//           margin-bottom: 1.7rem;
+//           line-height: 1.5;
+//           max-width: 30rem;
+//           width: 100%;
+//         }
+//       }
+//     }
+
+//     .flex-w-100 {
+//       display: flex;
+//       justify-content: center;
+//       margin-bottom: 42px;
+//     }
+
+//     .touch-wrapper {
+//       max-width: 376px;
+//       width: 100%;
+//       background: #fff;
+//       border: 1px solid transparent;
+//       border-radius: 9999px;
+//       display: flex;
+//       padding: 10px;
+
+//       input {
+//         flex: 1;
+//         border: inherit;
+//         outline: none;
+//       }
+//     }
+//   }
+// }
+
+// .touch-btn {
+//   background-color: #1d174d;
+//   color: white;
+//   border: none;
+//   padding: 13px 13px;
+//   border-radius: 50px;
+//   font-weight: bold;
+//   cursor: pointer;
+//   font-size: 16px;
+//   box-shadow: 2px 4px 0px rgba(34, 28, 84, 0.5);
+//   transition: all 0.3s ease-in-out;
+
+//   svg {
+//     fill: #fff;
+//     height: 16px;
+//     width: 16px;
+//     margin-left: 6px;
+//   }
+// }
+// .info-card {
+//   background: #fff;
+//   max-width: 400px;
+//   margin: 2rem auto 0 auto;
+//   border: 1px solid #e2d1b2;
+//   border-radius: 12px;
+//   padding: 2rem;
+//   text-align: center;
+//   box-shadow: 0 0 5px rgba(0,0,0,0.05);
+
+//   h2 {
+//     color: #221c54;
+//     font-size: 1.2rem;
+//     font-weight: 700;
+//     margin-bottom: 1rem;
+//     font-family: 'ffMark', 'ffMark Fallback', sans-serif;
+//   }
+
+//   p {
+//     color: #221c54;
+//     font-size: 0.95rem;
+//     line-height: 1.4;
+//     font-family: 'freight', 'freight Fallback', serif;
+//   }
+// }
+// .partners , .help{
+//     margin: 0;
+//     background: #faf5ec;
+// }
+// .org-track{
+//     background: #fff !important;
+//     .container{
+//         display: flex;
+//     }
+// }
+// .feartures-logos {
+//      background-color: #FAF5EC;
+//   padding: 4px 0;
+// }
+
+// .logos-row {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-wrap: wrap; /* Optional: makes sure logos wrap on small screens */
+//   gap: 20px; /* Optional: adds space between logos */
+// }
+
+// .logo-block {
+//   width: 183px;
+//   height: 69px;
+// }
+
+// .logo-block img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: contain;
+// }
+// .t-center{
+//     text-align: center;
+//     padding-block-end: 4rem;
+// }
+// .card-wrapper{
+//     display: flex;
+//     justify-content: center;
+//       position: relative;
+//       gap: 20px;
+//       padding-top: 4rem;
+//     .card{
+//             width: 17rem;
+//                 border-radius: 16px;
+//                 height: 295px;
+//                 padding-left: 1rem;
+//     padding-right: 1rem;
+//     padding-top: 6rem;
+//     padding-bottom: 2rem;
+//     border: 1px solid #EEDFC5;
+//     text-align: center;
+//     border-radius: 1rem;
+   
+
+//     box-shadow: 3px 3px 0px rgba(221, 197, 156, 0.3);
+//       h4{
+//             margin: 0;
+//     line-height: 1.35;
+//     font-size: 1.1rem;
+//     font-family: 'freight', 'freight Fallback', serif;
+//     font-weight: 400;
+//     font-family: 'roboto', 'roboto Fallback', sans-serif;
+//     font-weight: 700;
+//       }
+//         .frame{
+//             height:160px;
+//             width:160px;
+//             top:-80px;
+//             left:50px;
+//             position:absolute;
+//             img{
+//                 width:100%;
+//                 height:100%;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+

@@ -1,0 +1,204 @@
+.client_dashboard {
+    padding: 8rem 4rem;
+    background-color: #FAF5EC;
+
+    .dashboard_container {
+        max-width: 72rem;
+        margin: 0 auto;
+    }
+
+    .dashboard_flexBox {
+        display: flex;
+        gap: 32px;
+    }
+
+    .dashboard_content {
+        flex: 0 0 58%;
+    }
+
+    .dashboard_sidebar {
+        flex: 1;
+    }
+
+    .heading {
+
+        font-size: 32px;
+        font-weight: 500;
+        color: rgb(34, 28, 84);
+        line-height: 1.167;
+        letter-spacing: -0.045rem;
+        font-family: "mark_promedium", sans-serif;
+        text-align: center;
+
+    }
+
+    .description {
+
+        font-family: "freight", serif;
+        font-weight: normal;
+        font-size: 1.05rem;
+        color: rgb(34, 28, 84);
+        line-height: 1.3;
+        text-align: center;
+        margin: 1rem;
+
+    }
+
+    .dashboard_progress_bar {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .client_dashboard_cards {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 27px;
+    }
+
+    .dashboard_card {
+        flex: 0 0 calc(50% - 3px);
+        background-color: #fff;
+        border: 2px solid #eae8f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 192px;
+        border-radius: 8px;
+        padding: .4rem 1.3rem;
+        transition: border-color .2s linear;
+        cursor: pointer;
+
+        &:hover {
+            border-color: #b7b1e1;
+        }
+    }
+
+    .custom_referral_card {
+        margin-top: 1.7rem;
+        width: 100%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        flex-direction: column;
+        padding: 2.5rem 3rem;
+        border: 2px solid #ddc59c;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .generic_heading_style {
+        margin: 0px 0px 0.5rem;
+        font-size: 1.375rem;
+        letter-spacing: -0.042rem;
+        font-family: "mark_promedium", sans-serif;
+        text-align: center;
+        font-weight: 500;
+        color: #221C54;
+    }
+
+    .generic_subheading_style {
+        font-family: "freight", serif;
+        font-size: 1rem;
+        color: rgb(34, 28, 84);
+        line-height: 1.3;
+    }
+
+    .questionnaire_btn {
+        border-radius: 9999px;
+        font-size: 1rem;
+        background-color: rgb(227, 118, 69);
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        padding: .65rem 1.3rem;
+
+        font-family: "Roboto", sans-serif;
+
+        &:hover,
+        &:active {
+            background-color: #e0662f;
+            color: #fff !important;
+        }
+
+        &.mb-40 {
+            margin-block: 40px;
+        }
+    }
+
+    .copy_referral_link {
+        cursor: pointer;
+        padding: 0.3rem 0.4rem 0.3rem 1rem;
+        width: 100%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        border: 2px dashed #c8c3e8;
+        background-color: #eae8f6;
+
+        input {
+            background-color: transparent;
+            border: none;
+            padding-left: 0;
+        }
+    }
+
+    .client_mini_card {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 8px;
+    }
+
+    .dashboard_badge {
+        background-color: #d9d5ef;
+        padding: 0.17rem 0.5rem;
+        border-radius: 4px;
+        display: inline-flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .gray_btn {
+        font-size: .9375rem;
+        font-weight: 500;
+        padding: .4rem 1.3rem;
+        background-color: #f3f3f3 !important;
+
+        &:hover {
+            background-color: #e3e3e3 !important;
+            border-color: transparent !important;
+        }
+    }
+
+    .mini_heading {
+        margin: 0px 0px 0.5rem;
+        font-size: 1.175rem;
+        letter-spacing: -0.042rem;
+        font-family: "mark_promedium", sans-serif;
+        text-align: center;
+        font-weight: 500;
+        color: #221C54;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .client_dashboard {
+        padding: 6rem 2rem;
+
+        .dashboard_flexBox {
+            flex-direction: column;
+        }
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .client_dashboard .client_dashboard_cards {
+        flex-direction: column;
+    }
+}

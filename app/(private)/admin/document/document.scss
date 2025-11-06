@@ -1,0 +1,82 @@
+.doc-title{
+    font-size:1.64rem;
+    color: #202020;
+}
+.doc-card{
+    border: none;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+}
+
+.border-custom{
+   
+    padding: 15px;
+   border: 4px dashed #ebedf2;
+   border-radius: 4px;
+   background-color: transparent;
+}
+.back-btn{
+    font-size: 14px;
+    border: 1px solid #575962;
+    padding: 0 6px;
+    transition: all .2s ease;
+    &:hover{
+        svg{
+            transform: translateX(-1.5px);
+        }
+    }
+}
+.doc-name {
+    span {
+        display: inline-block;
+    }
+
+    .label {
+        min-width: 150px;
+        font-weight: 500;
+    }
+    .colon{
+min-width: 50px;
+
+    }
+    .value{
+min-width: 150px;
+    color: #575962;
+    }
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+/////////
+.btn-tab {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa;
+  color: #333;
+  border-radius: 4px 4px 0 0;
+}
+
+.btn-tab.active {
+  background-color: #fff;
+//   border-bottom: 1px solid transparent;
+  font-weight: 600;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0 4px 4px 4px;
+}
+
+.questions-container {
+  max-width: 100%;
+}
+
+.question-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.question-item:last-child {
+  border-bottom: none;
+}
+ 

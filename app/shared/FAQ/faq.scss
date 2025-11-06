@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.faq-container {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #221C54;
+}
+
+.faq-sec {
+    padding: 76px 0;
+
+}
+
+.faq-bottom-sec,
+.faq-sec h2 {
+    text-align: center;
+}
+
+
+.faq-bottom-sec a span {
+    border-bottom: 1px solid #221C54;
+    padding-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.faq-bottom-sec a .questions-btn:active,
+.faq-bottom-sec a .questions-btn {
+    background-color: transparent;
+    color: #221C54;
+    border: 0;
+    font-weight: 500;
+}
+
+.faq-bottom-sec a .questions-btn svg {
+    margin-left:8px;
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.faq-bottom-sec a .questions-btn:hover svg {
+    transform: translateX(3px);
+    transition: transform 0.22s;
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.landing-accordion .accordion-item .accordion-header,
+.landing-accordion .accordion-item,
+.landing-accordion .accordion-header button {
+    background-color: transparent;
+    border: 0;
+}
+
+.landing-accordion .accordion-header button:focus-visible,
+.landing-accordion .accordion-item .accordion-header:focus-visible {
+    outline: 0;
+}
+
+.landing-accordion .accordion-item .accordion-header button,
+.landing-accordion .accordion-item .accordion-header {
+    font-size: 19px;
+    color: #221C54;
+    font-weight: 500;
+}
+
+.landing-accordion .accordion-item .accordion-header {
+    padding: 7px 0;
+}
+
+.landing-accordion .accordion-item .accordion-header button::after {
+    fill: #DDC59C;
+    width: 24px;
+    height: 24px;
+    background-size: 15px;
+    background-position: 0 5px;
+    filter: #DDC59C;
+    filter: invert(92%) sepia(3%) saturate(2773%) hue-rotate(346deg) brightness(82%) contrast(113%);
+}
+
+.landing-accordion .accordion-item .accordion-header .accordion-button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.landing-accordion .accordion-item .accordion-header button {
+    padding-inline: 0;
+    box-shadow: none;
+}
+
+
+.landing-accordion .accordion-item .accordion-body {
+    padding: 0;
+}
+
+.landing-accordion .accordion-item {
+    border-bottom: 3px solid #DDc59c;
+}
+
+.faq-sec h2 {
+    font-size: 27.2px;
+    letter-spacing: -0.72px;
+    font-family: 'mark_promedium';
+    font-weight: 400;
+    line-height: 1.167;
+    padding-bottom: 22.4px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.accordion-body p {
+    margin: 0;
+    line-height: 1.35;
+    font-size: 1.1rem;
+    font-family: 'freighttextprfreighttextproBk';
+    font-weight: 400;
+    margin-top: 0;
+    padding-bottom: 32px;
+}
+
+.faq-link {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding-bottom: 16px;
+   
+}
+
+.faq-link button {
+    outline: 0;
+    border: 0;
+    font-size: 13.6px;
+    color: #221C54;
+    font-weight: 500;
+    padding: 8px 9px 7px 9px;
+    font-weight: 500;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+
+    &:active {
+        background-color: unset;
+    }
+
+}
+
+
+
+.faq-link button svg {
+    margin-left: 8px;
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+
+.faq-link button:hover {
+    background-color: rgba(34, 28, 84, 0.04);
+    color: #221C54;
+}
+
+
+.faq-link button:hover svg {
+    transform: translateX(3px);
+    transition: transform 0.22s;
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.faq-bottom-sec {
+    margin-top: 48px;
+}
+
+@media(max-width:768px) {
+    .faq-container {
+                max-width: 700px;
+        padding-inline: 20px;
+
+    }
+}
+
+@media(max-width:480px){
+    .landing-accordion .accordion-item .accordion-header button,
+.landing-accordion .accordion-item .accordion-header {
+    font-size: 16px;
+    font-weight: 500;
+}
+}

@@ -1,0 +1,178 @@
+.btn-default {
+  border-radius: 5px;
+  font-size: 14px;
+  // font-size: clamp(.7rem,.5vw,1rem);
+  font-weight: 400;
+  line-height: 20px;
+  padding: 8px 16px;
+  border: none;
+  height: 36px;
+  &:disabled {
+    opacity: 0.6;
+  }
+}
+
+.btn-quote {
+  background-color: #7428F2;
+  color: #fff;
+  &:hover,&:active {
+    background-color: #4A22BD !important;
+    color: #fff !important;
+  }
+  &.create-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+}
+.btn-outline{
+  border: 1px solid #7428F2;
+  background-color: transparent;
+  color: #7428F2;
+  height: 36px;
+  &:hover,&:active{
+    background-color: rgba(116, 40, 242, 0.05) !important;
+    color: #7428F2 !important;
+  }
+  &.btn-outline-warning{
+    border-color: #ffc107;
+    color: #ffc107 !important;
+  }  
+}
+.btn-cancel{
+  background-color: #fab005;
+  color: #fff;
+  &:hover,&:active{
+    background-color:#f59f00 !important;
+  }
+}
+.btn-logout {
+  background-color: #f5f5f5;
+  justify-content: center;
+  font-weight: 300;
+  margin: 0 auto;
+  &:focus-visible {
+    outline: 0;
+  }
+  &:active,
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+.btn-save {
+  font-weight: 500;
+}
+
+.logout-logo {
+  width: 14px;
+  height: 18px;
+}
+
+.large {
+  display: block;
+  width: 100%;
+  padding: 14px 10px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.medium {
+  padding: 8px 40px;
+  max-width: 168px;
+  width: 100%;
+}
+
+.sm {
+  max-width: 91px;
+  width: 100%;
+}
+
+.btn-clear {
+  background-color: #ffffff;
+  border: 1px solid #353535;
+
+  &:hover {
+    border: 1px solid #353535;
+  }
+}
+
+.btn-delete {
+  background-color: #1572e8;
+  color: #fff;
+  padding: 4px 10px;
+
+  &:hover {
+    background-color: #1572e8;
+    color: #fff;
+  }
+}
+.btn-del{
+  background-color: #f25961;
+  svg{
+    fill: #fff;
+  }
+}
+.delete-logo {
+  width: 9px;
+  height: 10px;
+}
+.upload-logo{
+  // filter: brightness(0) invert(1);
+  color: transparent;
+  font-size: 15px;
+  transform: scale(2.1);
+  height: 9px;
+}
+.btn-quote--hover {
+  &.btn-quote {
+    &:hover {
+      background-color: #4A22BD;
+    }
+  }
+  &:hover {
+    background-color: #4A22BD;
+  }
+}
+.btn-trash{
+  right: calc(100% - 288px);
+  top: 27px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eee !important;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in-out;
+  &:hover{
+    background-color: #ddd !important;
+    color: #202020;
+  }
+}
+.btn-remove{
+  font-weight: 500;
+  transition: all .5s ease-in-out;
+  &:hover{
+    background-color: #ddd !important;
+    color: #202020;
+  }
+}
+/*====================================
+  Dropdown Button
+=====================================*/
+.dropdown-btn{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  &::after{
+    display: none;
+  }
+}
+
+.insurance-counter +  .btn-trash{
+  margin-top: 5px m !important;
+}

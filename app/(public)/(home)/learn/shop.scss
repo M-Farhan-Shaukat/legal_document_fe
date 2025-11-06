@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.learn__sec-right {
+  flex: 0 0 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.planning__container {
+  max-width: 848px;
+  margin: 0 auto;
+}
+
+.estate__planning-sec {
+  padding-bottom: 65px;
+
+  .title__Sec {
+    text-align: center;
+    padding: 65px 0 33px 0;
+
+    h2 {
+      font-size: 32px;
+      color: #221c54;
+      font-weight: 300;
+      padding-bottom: 1.25rem;
+      font-family: 'mark_proregular';
+      letter-spacing: -0.048rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.estate-planning-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+
+.estate-planning-block {
+  display: flex;
+  width: 100%;
+  height: 276px;
+  // padding: 40px;
+  padding: 57px 40px 40px 40px;
+  background-color: rgb(250, 245, 236);
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+
+}
+
+.estate-planning-left {
+  flex: 1 0 43%;
+
+  h3 {
+    font-size: 32px;
+    letter-spacing: -0.0768px;
+    color: #221c54;
+    margin-bottom: 12px;
+    font-family: "mark_proregular";
+    font-weight: 700;
+    padding-bottom: 6px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 17.6px;
+    line-height:1.35;
+    font-family: 'freighttextprfreighttextproBk';
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: rgb(34, 28, 84)
+    }
+  }
+}
+
+.planning-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.estate-planning-separator {
+  position: relative;
+  padding: 0 36px;
+  height: 195px;
+
+  &::after {
+    position: absolute;
+    content: '';
+    background-color: #eedfc5;
+    height: 100%;
+    width: 3px;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.estate-planning-right {
+  flex: 0 0 52%;
+}
+
+.show-more {
+  color: rgb(224, 102, 47);
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  pointer-events: none;
+
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(224, 102, 47);
+  }
+}
+
+.links__link-main {
+  margin-bottom: 14px;
+
+  .learn-link {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0 0.4rem;
+    margin-bottom: 0.25rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      pointer-events: none;
+
+      .link-text {
+        font-size: 16px;
+        line-height: 1.35;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        color: #221c54;
+        display: flex;
+        align-items: center;
+        gap: 0 5px;
+
+        svg {
+          fill: #E0662F;
+          font-size: 20px;
+          transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        }
+      }
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(34, 28, 84);
+
+        .link-text {
+          svg {
+            transform: translateX(3px);
+            transition: transform 0.22s;
+            transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+          }
+        }
+
+      }
+    }
+  }
+}

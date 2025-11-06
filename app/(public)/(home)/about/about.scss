@@ -1,0 +1,634 @@
+
+
+
+.about-container{
+    max-width: 1100px;
+    margin: 0 auto; 
+    padding: 0 40px;
+}
+
+.story{
+        background-color: #f9f5ed;
+              padding: 163px 0 113px;
+            overflow: hidden;
+}
+.story-box{
+    display: flex;
+    justify-content: space-between;
+    .story-left{
+        max-width: 590px;
+        position: relative;
+        .label{
+       font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #221C54;
+    display: inline-block;
+    line-height: 1.35;
+    font-weight: 500;
+        text-transform: capitalize;
+}
+.label::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #2a2087;
+    margin: 8px 0;
+}
+.headline {
+    font-size: 33.6px;
+   font-weight: 400;
+    line-height: 1.26;
+    color: #221C54;
+    margin-bottom: 10px;
+    letter-spacing: -0.768px;
+        font-family: 'mark_promedium';
+}
+ .description {
+    color: #221C54;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    letter-spacing: 0.3px;
+        font-family: "freighttextprfreighttextproBk";
+}
+    }
+}
+.cloud-one{
+    width: 110px;
+    height: 43px;
+     position: absolute;
+    top: -46px;
+    left: -143px; 
+     img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.cloud-two{
+    width: 80px;
+    height: 32px;
+        position: absolute;
+    top: 33px;
+    left: -187px; 
+     img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.cloud-three{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    bottom: 77px;
+    left: -158px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.story-right{
+    display: flex;
+    gap: 30px;
+    position: relative;
+        max-width: 280px;
+    width: 100%;
+        right: 4px;
+    .right-frist{
+   position: absolute;
+    top: 37px;
+        left: 0;
+        .arin{
+    font-size:15px ;
+    font-weight: 700;
+    color: #221C54;
+}
+.co {
+    color: rgb(142, 137, 160);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+        .frist-image{
+      max-width: 125px;
+    height: 125px;
+    img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+}
+.signco{
+   padding: 5px 0 0 10px;
+ .king-co{        
+             margin: -24px 0 0 -25px;
+          text-align: center;
+        }
+}
+.sign-image{
+           max-width: 95px;
+    height: 80px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+}
+}
+.right-second{
+    position: absolute;
+    right: 0;
+    top: 7px;
+       .frist-image{
+      max-width: 125px;
+    height: 125px;
+    img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+      }
+    .dantel-image{
+  max-width: 108px;
+    height: 57px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+ .dantel-co{
+            margin: -7px 0 0 0px;
+            text-align: center;
+        }
+.arin{
+    font-size:15px ;
+    font-weight: 700;
+    color: #221C54;
+}
+.co{
+    color: rgb(142, 137, 160);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+}
+.right-cloud-one{
+    width: 110px;
+    height: 43px;
+      position: absolute;
+    top: -53px;
+    right: -114px;
+       img{
+        width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+}
+.right-cloud-two{
+    width: 110px;
+    height: 40px;
+           position: absolute;
+    top: 9px;
+    right: -198px;
+      img{
+        width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+   
+}
+.right-cloud-three{
+    width: 80px;
+    height: 32px;
+    position: absolute;
+  bottom: 109px;
+    right: -117px;
+       img{
+        width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+}
+.our-vision{
+     padding: 109px 0px;
+}
+.vision-box{
+    display: flex;
+    gap: 32px;
+        .label{
+       font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #221C54;
+    display: inline-block;
+    line-height: 1.35;
+    font-weight: 500;
+        text-transform: capitalize;
+}
+.label::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #2a2087;
+    margin: 8px 0;
+}
+.headline {
+    font-size: 33.6px;
+   font-weight: 400;
+    line-height: 1.26;
+    color: #221C54;
+    margin-bottom: 10px;
+    letter-spacing: -0.768px;
+        font-family: 'mark_promedium';
+}
+ .description {
+    color: #221C54;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    letter-spacing: 0.3px;
+        font-family: "freighttextprfreighttextproBk";
+}
+    .vision-image{
+   max-width: 550px;
+    height: 345px;
+        margin: 0 auto;
+        img{
+           width: 100%;
+           height: 100%;
+           object-fit: contain;
+       }
+}
+.vision-right{
+max-width: 518px;
+}
+}
+.all-started{
+    background-color: #f9f5ed;
+       padding: 102px 0;
+       .stat-box{
+           display: flex;
+               gap: 32px;
+        .label{
+       font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #221C54;
+    display: inline-block;
+    line-height: 1.35;
+    font-weight: 500;
+        text-transform: capitalize;
+}
+.label::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #2a2087;
+    margin: 8px 0;
+}
+.headline {
+    font-size: 33.6px;
+   font-weight: 400;
+    line-height: 1.26;
+    color: #221C54;
+    margin-bottom: 10px;
+    letter-spacing: -0.768px;
+        font-family: 'mark_promedium';
+}
+ .description {
+    color: #221C54;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    letter-spacing: 0.3px;
+        font-family: "freighttextprfreighttextproBk";
+}
+               .start-left{
+               max-width: 518px;
+               }
+       }
+}
+.start-right{
+    max-width: 550px;
+    height: 330px;
+    margin: 17px auto 0; 
+   img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.we-help{
+    background-color: #f9f5ed;
+    padding: 112px 0;
+    .help-box{
+        display: flex;
+          gap: 32px;
+        .label{
+       font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #221C54;
+    display: inline-block;
+    line-height: 1.35;
+    font-weight: 500;
+        text-transform: capitalize;
+}
+.label::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #2a2087;
+    margin: 8px 0;
+}
+.headline {
+    font-size: 33.6px;
+   font-weight: 400;
+    line-height: 1.26;
+    color: #221C54;
+    margin-bottom: 10px;
+    letter-spacing: -0.768px;
+        font-family: 'mark_promedium';
+}
+ .description {
+    color: #221C54;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    letter-spacing: 0.3px;
+        font-family: "freighttextprfreighttextproBk";
+}
+          .help-left{
+          max-width: 550px;
+             height: 275px;
+              width: 100%;
+              img{
+                 width: 100%;
+                 height: 100%;
+                 object-fit: contain;
+                 .help-right{
+                 max-width:518px ;
+                 margin: auto;
+                 }
+             }
+          }
+    }
+}
+.Recognition{
+    padding: 107px 0;
+    .Recognition-box{
+    display: flex;
+    gap: 32px;
+        .label{
+       font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #221C54;
+    display: inline-block;
+    line-height: 1.35;
+    font-weight: 500;
+        text-transform: capitalize;
+}
+.label::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #2a2087;
+    margin: 8px 0;
+}
+.headline {
+    font-size: 33.6px;
+   font-weight: 400;
+    line-height: 1.26;
+    color: #221C54;
+    margin-bottom: 10px;
+    letter-spacing: -0.768px;
+        font-family: 'mark_promedium';
+}
+ .description {
+    color: #221C54;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    letter-spacing: 0.3px;
+        font-family: "freighttextprfreighttextproBk";
+}
+    .Recognition-left{
+    max-width: 518px;
+   
+    .description-two {
+    color: #221C54;
+    line-height: 1.35;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 16px;
+     font-family: "freighttextprfreighttextproBk";
+      }
+    }
+    .Recognition-right{
+        max-width: 550px;
+     height:255px;
+            margin-top: 37px;
+            width: 100%;
+            img{
+                width: 100%;
+               height: 100%;
+               object-fit: contain;
+           }
+    }
+    }
+}
+.question{
+        background-color: #f9f5ed;
+    padding: 129px 0;
+    
+   .question-box{
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #221C54;
+        padding: 33px;
+        border-radius: 16px;
+        background-color: #ffffff;
+            border: 1px solid #EEDFC5;
+    box-shadow: 3px 3px 0px rgba(221, 197, 156, 0.3);
+    position: relative;
+ 
+        h3 {
+    font-size: 27px;
+    font-weight: 400;
+        padding: 8px 0;
+    font-family: 'mark_promedium';
+}
+         p{
+   font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+        text-align: center;
+        font-family: "freighttextprfreighttextproBk";
+}
+   .glasses{
+        max-width: 170px;
+      height: 77px;
+        position: absolute;
+            top: -45px;
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+    }
+    }
+}
+.btn-make{ 
+    display: flex;
+      padding: 6px 12px;
+    background-color:#221C54;
+        border-radius: 20px;
+        margin-bottom: 10px;
+            gap: 10px;
+            transition: all 0.17s;
+    box-shadow: 2px 4px 0px rgba(34, 28, 84, 0.4);
+        border: none;
+        cursor: pointer;
+         color:#ffffff ;
+    font-weight: 500;
+       font-size: 14px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    &:hover{
+        transform: translate(0px, 3px);
+        background-color: #221C54;
+    box-shadow: unset;
+    }
+ 
+}
+@media  (max-width: 992px){
+    .label::after {
+        margin: 8px auto;
+    }
+    .hide{
+        display: none;
+    }
+    .pad{
+        padding: 88px 0;
+    }
+    .about-container{
+                padding: 0px 40px;
+    }
+    .story-box{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .story-left{
+        margin-bottom: 20px;
+    }
+    .story-right {
+        flex-direction: row-reverse;
+                max-width: 300px;
+        gap: 50px;
+        .right-frist {
+    position: unset;
+}
+    }
+    .story-left{
+        text-align: center;
+    }
+    .story{
+        overflow: unset;
+    }
+    
+    .right-second {
+        position: unset;
+    }
+    .vision-box{
+flex-direction: column;
+align-items: center;
+    }
+    .vision-right{
+        max-width: 650px;
+text-align: center;
+    }
+    .stat-box{
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .start-left{
+         max-width: 650px;
+text-align: center;
+    }
+    .help-box{
+        flex-direction: column;
+    }
+    .help-left{
+            max-width: 390px;
+ height: 275px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .help-right{
+         max-width: 650px;
+text-align: center;
+margin: 0 auto;
+    }
+    .Recognition-box{
+text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Recognition-right{
+       max-width: 220px;
+    }
+    .Recognition-left{
+     max-width: 650px;
+text-align: center;
+margin: 0 auto;
+    }
+}
+@media  (max-width: 600px){
+    .headline{
+      font-size: 27px;
+    }
+    .vision-image {
+    height: 300px;
+}
+.description{
+    font-size: 17px;
+}
+.start-right {
+    height: 220px;  
+}
+    .help-left{
+        height: 200px;
+    }
+    .Recognition-right {
+    height: 195px;
+}
+.glasses {
+    height: 65px;
+}
+.question-box{
+    padding:107px 0;
+}
+.question-box h3 {
+    margin-bottom: 15px;
+}
+.question-box p {
+    margin-bottom: 20px;
+}
+.question {
+    padding: 104px 0;
+}
+}

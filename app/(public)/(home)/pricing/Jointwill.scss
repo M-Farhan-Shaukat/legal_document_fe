@@ -1,0 +1,106 @@
+/* ========= BASE STYLES (Desktop) ========= */
+.joint-will-section {
+    padding: 83px 60px;
+    background-color: rgb(250, 245, 236);
+  
+    .custome-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+  
+    .joint-will-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+    }
+    
+    .left-column,
+    .right-column {
+      width: 50%;
+    }
+    .left-column{
+      padding-right: 13px;
+    }
+    .joint-will-map {
+      width: 321px;
+      height: 355px;
+      margin: 0 auto;
+      padding-right: 16px;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .joint-will-section {
+      padding: 80px 60px 35px;
+      .joint-will-container {
+        flex-direction: column-reverse;
+  
+        .left-column,
+        .right-column {
+          width: 100%;
+          max-width: 650px;
+          margin: 0 auto;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+  
+        .right-column {
+          margin-bottom: 18px;
+        }
+  
+        .generic-label {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .generic-description{
+          margin-right: 0;
+        }
+      }
+  
+      .joint-will-map {
+        width: 253px;
+        height: 294px;
+        padding-right: 0;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .joint-will-section {
+      .right-column{
+        .joint-will-map{
+          width: 219px;
+          height: 254px;
+        }
+      }
+      .left-column{
+        .generic-heading{
+          font-size: 29px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 786px) {
+    .joint-will-section {
+      padding: 80px 25px 60px;
+      .right-column{
+        .generic-description{
+          font-size: 16.6px;
+        }
+      }
+      .left-column{
+        margin-bottom: 30px;
+      }
+    }
+  }

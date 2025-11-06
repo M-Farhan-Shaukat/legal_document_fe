@@ -1,0 +1,78 @@
+/* ========= BASE STYLES (Desktop) ========= */
+.blog-section {
+    padding: 96px 60px;
+    background-color: #ffffff;
+  
+    .custome-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+  
+    .blog-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+    }
+    
+    .left-column,
+    .right-column {
+      width: 50%;
+    }
+  
+    .blog-map {
+      width: 477px;
+      height: 325px;
+      margin: 0 auto; // center image in column
+  
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }  
+  }
+  @media screen and (max-width: 1050px) {
+    .blog-section {
+      .blog-container {
+        flex-direction: column;
+  
+        .left-column,
+        .right-column {
+          width: 100%;
+          max-width: 650px;
+          margin: 0 auto;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+  
+        .right-column {
+          margin-bottom: 48px;
+        }
+  
+        .generic-label {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+  
+      .blog-map {
+        width: 100%;
+        max-width: 477px;
+        height: auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 786px) {
+    .blog-section {
+      padding: 96px 32px;
+    }
+  }
+    

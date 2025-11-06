@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.pricing-sec {
+  background-color: #faf5ec;
+  padding: 53px 0px;
+  position: relative;
+  .banner_images-main {
+    display: none;
+  }
+}
+
+.proceed-to-payment {
+  background-color: #e37645;
+  min-width: 154px;
+  min-height: 43px;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  padding: 6px 20px;
+  border: 1px solid #e37645;
+  border-radius: 9999px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+
+.quiz-title h5 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #221c54;
+  margin: 0;
+  line-height: 1.35;
+}
+.quiz-title .sub-title {
+  font-family: "freighttextprfreighttextproBk";
+  font-weight: 400;
+  margin-top: 0.8rem;
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+
+.quiz-title h2 {
+  font-size: 33px;
+  color: #221c54;
+  font-family: "mark_promedium";
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: -0.048rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  position: relative;
+}
+
+.separator .sep {
+  width: 25px;
+  margin: 0 auto;
+  opacity: 1;
+  background-color: #a6a4ba !important;
+  display: inline-block;
+  height: 1px;
+}
+
+.quiz-title {
+  text-align: center;
+  color: #221c54;
+}
+
+.quiz-title h5 {
+  font-size: 16px;
+  line-height: 1.35;
+  font-family: "roboto", "roboto Fallback", sans-serif;
+  font-weight: 500;
+  color: #221c54;
+}
+
+.cards-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 32px;
+}
+
+.card-main {
+  border: 1px solid #6156bb;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 0px rgba(97, 86, 187, 0.3);
+}
+
+.card-main .card-body {
+  border-radius: inherit;
+  max-width: 400px;
+  border-radius: 16px;
+  padding: 48px;
+}
+
+.card-main .card {
+  border-radius: 16px;
+}
+
+.card-main .card-body h5 {
+  text-align: center;
+  color: #6156bb !important;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-main .card-body h2 {
+  font-size: 51px;
+  text-align: center;
+  margin: 14px 0;
+  font-weight: 500;
+  line-height: 1.35;
+  color: #221c54 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-main .card-body p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.35;
+  font-family: "roboto", "roboto Fallback", sans-serif;
+  font-size: 16px;
+  color: #221c54 !important;
+}
+
+.pricing-block-hr {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-color: #f3f3f3 !important;
+  width: 100%;
+}
+
+.block-listing {
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.block-listing li {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  line-height: 1.35;
+  font-family: "roboto", "roboto Fallback", sans-serif;
+  color: #4e4976;
+  margin-left: 11px;
+  font-size: 16px;
+  span {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: "roboto", "roboto Fallback", sans-serif;
+    color: #4e4976;
+    margin-left: 0.7rem;
+    font-size: 0.97rem;
+  }
+  svg {
+    flex-shrink: 0;
+  }
+}
+
+.card-action {
+  text-align: center;
+}
+
+.card-action button {
+  width: 100%;
+  margin: 0;
+}
+
+.popular-row {
+  position: absolute;
+  top: -34px;
+  right: -79px;
+}
+
+.popular-row span {
+  line-height: 1.35;
+  font-family: "roboto", "roboto Fallback", sans-serif;
+  color: #e37645;
+  bottom: 21px;
+  font-weight: 500;
+  position: relative;
+}
+
+.popular-row img {
+  width: 50px;
+  height: 50px;
+}
+
+div.pricing-toggles {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 0 23px;
+  margin: 40px auto 53px auto !important;
+  align-items: center;
+  max-width: 233px;
+}
+
+.pricing-toggles label {
+  line-height: 1.35;
+  font-family: "roboto", "roboto Fallback", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 19px;
+  color: #221c54;
+}
+
+// temp
+
+.custom-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  // height: 20px;
+  height: 18px;
+}
+
+.custom-switch input {
+  opacity: 0;
+  width: 45px;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #aaa2b7;
+  /* greyish-purple tone like your image */
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: -2px;
+  bottom: -3px;
+  background-color: #fff;
+  transition: 0.4s;
+  border-radius: 50%;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.slider:hover::before {
+  // background-color: rgba(0, 0, 0, 0.04);
+}
+/* Checked state */
+.custom-switch input:checked + .slider {
+  background-color: rgba(34, 28, 84, 0.5);
+}
+
+.custom-switch input:checked + .slider::before {
+  transform: translateX(24px);
+  background-color: rgb(34, 28, 84);
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .cards-row {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .popular-row {
+    bottom: -36px;
+    top: auto;
+    left: auto;
+    right: 8px;
+  }
+  .popular-row span {
+    bottom: -26px;
+  }
+  .popular-row img {
+    transform: scaleY(-1);
+  }
+  .block-listing li {
+    margin-left: 0;
+  }
+}
+@media (max-width: 575px) {
+  .quiz-title h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .quiz-title {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .pricing-sec {
+    padding: 30px;
+  }
+
+  .card-main .card-body {
+    padding: 30px 20px;
+  }
+}

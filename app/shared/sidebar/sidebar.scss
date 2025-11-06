@@ -1,0 +1,191 @@
+.searchBox {
+  margin-bottom: 47px;
+  img {
+    top: 9px;
+    left: 13px;
+  }
+}
+.me-3{
+  height:20px;
+  width:20px;
+  filter: brightness(0) saturate(100%) invert(34%) sepia(5%) saturate(793%) hue-rotate(192deg) brightness(97%) contrast(91%);
+}
+.dropdown--inner{
+  text-align: left;
+}
+.pl-37{
+  padding-left: 37px;
+}
+.marklabList{
+  padding-inline: 1rem;
+  li {
+      margin-bottom: 18px;
+      padding: 8px;
+        transition: background-color .2s ease;
+        &:hover ,.active-page{
+          background-color: #f9fafb !important;
+          border-radius:6px;
+            span{
+              color:#111827 !important;
+          }
+            img{
+              filter: brightness(0) saturate(100%) invert(7%) sepia(19%) saturate(1759%) hue-rotate(182deg) brightness(94%) contrast(95%) !important;
+            }
+        }
+        &:has(.active-page){
+          background-color: #f9fafb !important;
+        }
+    
+    &.mb-0{
+      margin-bottom: 0;
+    }
+    .dropdown-menu a{
+      font-size: 15px;
+      color: #757575;
+    }
+    &.dropdown{
+      .dropdown-menu{
+        padding-top: 20px;
+      }
+    }
+     img[alt="arrow icon"]{
+      // filter: brightness(0) saturate(100%) invert(47%) sepia(12%) saturate(12%) hue-rotate(15deg) brightness(94%) contrast(87%);
+      top: 5px;
+     }
+  }
+} 
+.marklab-sidebar {
+  padding: 20px 0px 40px 0px;
+  min-height: 100vh;
+  .marklabList {
+  span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #575962;
+  }
+  a, .dropdown-menu a{
+    &.active-page {
+      .me-3 {
+        filter: brightness(0) saturate(100%) invert(32%) sepia(76%) saturate(3237%) hue-rotate(208deg) brightness(100%) contrast(102%);
+      }
+      span {
+        color: #1572e8;
+        font-weight: 500;
+      }
+    }
+
+  }
+  .dropdown-menu a img{
+    right: -20px !important;
+  }
+}
+}
+
+
+
+.sidebarInfo {
+  gap: 13px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d1d5db;
+  margin-inline: 1rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.avatarImage {
+  width: 38px;
+  height: 38px;
+  background-color: transparent;
+  overflow: hidden;
+}
+.userInfo {
+  strong {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #09090a;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: #1f1f22;
+  }
+  svg{
+    filter: brightness(0) saturate(100%) invert(18%) sepia(93%) saturate(5986%) hue-rotate(263deg) brightness(97%) contrast(96%);
+  }
+}
+.notificationBadge {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-left: 5px;
+  &.success-badge {
+    background-color: #34c759;
+  }
+  &.danger-badge {
+    background-color: #ff0101;
+  }
+}
+.search-icon + svg {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+// document dropdown
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu {
+  display: none;
+  list-style-type: none;
+  margin-top: 8px;
+  padding: 0;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}
+
+.dropdown-container.open .dropdown-menu {
+  display: block;
+}
+.hamburger-btn{
+  padding: 13px 13px 0;
+  background-color: #fff;
+  svg{
+    font-size: 24px;
+  }
+}
+.overlay{
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+@media screen and (max-width:1366px) {
+  .marklab-sidebar{
+    padding: 43px 25px 58px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition:left .65s linear;
+    background-color: #fff;
+    z-index: -1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+    &.show{
+      left: 0;
+    }
+  }
+}

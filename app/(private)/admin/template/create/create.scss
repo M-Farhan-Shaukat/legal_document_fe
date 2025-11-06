@@ -1,0 +1,87 @@
+.bg-box-shadow {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, .06);
+}
+
+.clr {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+    width: 100%;
+}
+
+.clr h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.row {
+    margin: unset !important;
+}
+
+.forms-btn {
+    top: 55px;
+    right: 55px;
+}
+
+.mx-10 {
+    margin-right: 10px;
+}
+
+.modal-footer .btn-delete {
+
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.ql-container.ql-snow,
+.ql-toolbar.ql-snow {
+    border: 1px solid #dee2e6, !important;
+}
+
+
+.tab-btn {
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #555;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.tab-btn:hover {
+    color: #4A22BD;
+}
+
+.tab-btn.active-tab {
+    color: #4A22BD;
+    border-color: #4A22BD;
+    font-weight: 600;
+}
+
+.tab-content-wrapper {
+    position: relative;
+    min-height: 200px;
+}
+
+.tab-pane-content {
+    animation: fadeSlide 0.4s ease-in-out;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

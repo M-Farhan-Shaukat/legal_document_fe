@@ -1,0 +1,56 @@
+.learn__sec {
+  background-color: rgb(250, 245, 236);
+  margin-top: 74px;
+  padding: 86px 0;
+  // min-height: 462px;
+}
+
+.learn__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.learn__sec-inner {
+  display: flex;
+  align-items: center;
+}
+
+.learn__sec-left {
+  flex: 0 0 44%;
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.22;
+    letter-spacing: -0.07rem;
+    color: rgb(227, 118, 69);
+    font-family: "mark_proregular";
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: 'freighttextprfreighttextproBk';
+  }
+}
+
+@media(max-width:1024px) {
+  .learn__sec {
+    background-color: rgb(241, 231, 213);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 430px;
+    .learn__sec-left {
+      flex: 0 0 100%;
+    }
+
+    .learn__sec-right {
+      display: none;
+    }
+  }
+}

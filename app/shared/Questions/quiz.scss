@@ -1,0 +1,255 @@
+.quiz-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.quiz-sec .card {
+    border: 1px solid #6156BB;
+    border-radius: 1rem;
+    width: 100%;
+    box-shadow: 3px 3px 0px rgba(97, 86, 187, 0.3);
+    display: flex;
+    max-width: 850px;
+    overflow-y: auto;
+    min-height: 400px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.quiz__question-main input.form-control {
+    height: 54px;
+    font-family: "Roboto", sans-serif;
+}
+
+.quiz__question-main form {
+    width: 100%;
+    max-width: 250px;
+}
+.quiz-submit-btn {
+    border: none;
+    padding: 7px 36px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 2px 4px 0px rgba(34, 28, 84, 0.5);
+    transition: all 0.3s ease-in-out;
+    transform: translate(0px, -3px);
+    font-size: 14px;
+    background-color: #221C54;
+    &:hover{
+        background-color: #221C54;
+            transform: translate(1px, 3px);
+                box-shadow: none;
+    }
+}
+.quiz__question-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz__question-main label {
+    margin-top: 0.8rem;
+    font-weight: 400;
+    line-height: 2.15rem;
+    font-size: 20px;
+    letter-spacing: -0.07px;
+    color: #221c54;
+    font-family: "mark_promedium";
+}
+
+.action-row button {
+    margin: 0.5rem;
+       display: inline-block;
+    border-radius: 7px;
+    flex: 0 0 46%;
+    border: 2px solid rgb(34 28 84 / 32%);
+    padding: 16px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: "roboto", "roboto Fallback", sans-serif;
+    font-size: 1.075rem;
+    height: 90px;
+    color: #221c54;
+}
+
+.action-row button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #847EAE;
+}
+
+.action-row {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.quiz__question-main>div {
+    max-width: 100%;
+    width: 382px;
+    text-align: center;
+}
+
+hr {
+    width: 25px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    // border: 1px solid #221C54 !important;
+    margin: auto;
+    opacity: 1;
+    height: 1px !important;
+    background-color: #221C54 !important;
+}
+
+.start-quiz-title {
+    text-align: right;
+}
+
+.quiz-title {
+    text-align: center;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    position: relative;
+}
+
+.separator p {
+    width: 25px;
+    margin: 0 auto;
+    opacity: 1;
+    background-color: #a6a4ba !important;
+    display: inline-block;
+    height: 1px;
+}
+.quiz-title h2 {
+       font-size: 33px;
+    color: #221C54;
+    font-family: "mark_promedium";
+    font-weight: 400;
+    margin-bottom: 11px;
+    line-height: 42px;
+}
+.quiz-title p{
+    font-size: 17px;
+     font-family: 'freighttextprfreighttextproBk';
+}
+.quiz-title {
+    margin-bottom:51px;
+    text-align: center;
+}
+
+.quiz-title h5 {
+        font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #221C54;
+    margin: 0;
+    line-height: 1.35;
+}
+
+.quiz__question-main>div label {
+    margin-bottom: 40px;
+    margin-top: 0.8rem;
+    font-weight: 400;
+    line-height: 2.15rem;
+    font-size: 1.475rem;
+    letter-spacing: -0.048rem;
+   font-family: 'mark_promedium';
+    color: #221C54;
+}
+
+.quiz-sec {
+    background-color: #FAF5EC;
+    padding: 55px 0;
+}
+
+
+.question--progress {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 4px;
+    z-index: 0;
+    background-color: rgb(171, 168, 190);
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    height: 5px;
+    width: 180px;
+    border-radius: 9999px;
+    display: block;
+    margin: 3px auto 27px auto;
+}
+
+.question--progress .progress-bar {
+    background-color: #221C54 !important;
+    /* Replace with your desired color */
+    height: 100%;
+}
+
+.quiz__question-main select.form-select {
+     padding: 10px;
+    border-radius: 5px;
+    max-width: 254px;
+    margin: 0 auto;
+    height: 58px;
+    font-weight: 400;
+    font-family: 'freighttextprfreighttextproBk';
+    font-size: 17px;
+    color: rgb(34, 28, 84);
+
+}
+
+.start-quiz-title .start-quiz-btn {
+    font-size: 14px;
+    border: 0;
+    font-weight: 500;
+    padding: 6px;
+    color: #221C54;
+}
+
+html body .start-quiz-title .start-quiz-btn:hover {
+    background-color: rgba(34, 28, 84, 0.04) !important;
+    color: #221C54 !important;
+}
+
+.start-quiz-title .start-quiz-btn svg {
+    margin-left: 8px;
+}
+
+.quiz-container .card-body {
+    padding: 8px 12px;
+}
+
+@media(max-width:575px) {
+    .quiz-sec {
+        padding: 60.8px 20px;
+    }
+}
+
+
+@media(max-width:480px) {
+    .start-quiz-title {
+        text-align: center;
+    }
+
+    .action-row {
+        flex-direction: column;
+        gap: 20px;
+
+        button {
+            flex: 0 0 50%;
+            width: 46%;
+            min-height: 90px;
+        }
+    }
+
+    .quiz-sec .card {
+        min-height: 476px;
+    }
+
+    .question--progress {
+        margin: 27px auto;
+    }
+
+}

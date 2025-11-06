@@ -1,0 +1,60 @@
+/**************************************
+    Sub header styles
+***************************************/
+.sub-header {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin-bottom: 21px;
+
+
+
+  .left-section {
+    display: flex;
+    align-items: center;
+
+   .filter-color{
+filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(5785%) hue-rotate(92deg) brightness(91%) contrast(111%);
+font-size: 1.2rem;
+   }
+
+      .header-logo {
+        margin-right: 2px;
+       width:20px
+        
+      }
+    
+
+    .sub-header-text {
+      display: flex;
+      color: #6c757d;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      margin: 0;
+
+      &::before {
+        content: "";
+        height: 15px;
+        width: 1px;
+        background-color: #7f7f7f;
+        display: flex;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .right-section {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+
+    .header-icon {
+      display: flex;
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "legal-document",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3200",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@reduxjs/toolkit": "^2.5.1",
+    "@tinymce/tinymce-react": "^6.3.0",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "crypto-js": "^4.2.0",
+    "focus-formik-error": "^1.1.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^12.23.12",
+    "js-base64": "^3.7.7",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.30.1",
+    "next": "^15.1.6",
+    "query-string": "^9.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "react-select": "^5.10.2",
+    "react-select-async-paginate": "^0.7.9",
+    "reactstrap": "^9.2.3",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.83.4",
+    "tinymce": "^8.0.2",
+    "yup": "^1.6.1"
+  }
+}

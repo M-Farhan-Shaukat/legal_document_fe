@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "freighttextprfreighttextproBk";
+  src: url("/fonts/freighttext-pro-book-regular-webfont.woff2") format("woff2"),
+    url("/fonts/freighttext-pro-book-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "mark_promedium";
+  src: url("/fonts/markpro-medium-webfont.woff2") format("woff2"),
+    url("/fonts/markpro-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "mark_proregular";
+  src: url("/fonts/markpro-webfont.woff2") format("woff2"),
+    url("/fonts/markpro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.fs {
+  font-size: 14px;
+}
+.box-shadow-generic {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.layout__container {
+  &.bg-offwhite {
+    background-color: #f1f5f9;
+  }
+}
+.layout__right-section {
+  width: 100%;
+}
+.layout__sidebar-wrapper {
+  max-width: 20rem;
+  width: 100%;
+  border-right: 1px solid #e5e7ea;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background-color: #fff;
+}
+.btn-start {
+  background-color: #e37645;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 20px;
+  line-height: 1.75;
+  /* font-weight: 500; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  border: 0;
+  transition: all 0.17s;
+  /* margin: 0 10px; */
+  text-align: center;
+  box-shadow: 2px 4px 0px rgba(227, 118, 69, 0.3);
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  margin-left: 1.4rem;
+  margin-right: 0.75rem;
+}
+
+.btn-start:hover {
+  transform: translate(1px, 3px);
+  background-color: #e37645;
+  box-shadow: none;
+}
+
+.btn--link {
+  margin-top: 25px;
+  color: #221c54;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  line-height: 20px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.btn--link .text {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #221c54;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: roboto, "roboto Fallback", sans-serif;
+}
+.btn--link .arrow {
+  font-size: 18px;
+  margin-left: 3px;
+  transition: transform 0.3s ease;
+}
+
+.btn--link .arrow svg {
+  font-size: 15.5px;
+  vertical-align: baseline;
+}
+
+.btn--link:hover .arrow {
+  transform: translateX(3px);
+}
+
+.generic-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #221c54;
+  font-family: "roboto", "roboto Fallback", sans-serif;
+  font-weight: 500;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 0.9px;
+    background-color: #a6a4ba;
+    margin: 8px 0;
+  }
+}
+
+.generic-heading {
+  font-size: 33.6px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #221c54;
+  margin-bottom: 13px;
+  letter-spacing: -0.048rem;
+  font-family: "mark_promedium";
+}
+
+.generic-description {
+  font-size: 17.6px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: #221c54;
+  font-family: "freighttextprfreighttextproBk", serif;
+  padding-bottom: 16px;
+  margin-right: 15px;
+}
+.generic-description p {
+  font-family: "freighttextprfreighttextproBk";
+}
+.generic-about-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #221c54;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #221c54;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+
+  .arrow {
+    font-size: 18px;
+    margin-left: 4px;
+  }
+}
+.required {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.drag-handle {
+  transition: opacity 0.2s ease;
+}
+
+.drag-handle:hover {
+  opacity: 1 !important;
+  cursor: grab;
+}
+
+/* Change cursor when dragging */
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* For the entire draggable item when dragging */
+[draggable="true"]:active {
+  cursor: grabbing;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* === Quill Editor Complete CSS === */
+
+/* Headings */
+.ql-editor h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.ql-editor h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.ql-editor h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.ql-editor h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+.ql-editor h5 {
+  font-size: 0.83em;
+  font-weight: bold;
+}
+.ql-editor h6 {
+  font-size: 0.67em;
+  font-weight: bold;
+}
+
+/* Text styles */
+.ql-editor .ql-bold {
+  font-weight: bold;
+}
+.ql-editor .ql-italic {
+  font-style: italic;
+}
+.ql-editor .ql-underline {
+  text-decoration: underline;
+}
+.ql-editor .ql-strike {
+  text-decoration: line-through;
+}
+
+/* Text alignment */
+.ql-align-left {
+  text-align: left;
+}
+.ql-align-center {
+  text-align: center;
+}
+.ql-align-right {
+  text-align: right;
+}
+.ql-align-justify {
+  text-align: justify;
+}
+
+/* Lists */
+.ql-editor .ql-list-ordered {
+  list-style-type: decimal;
+}
+.ql-editor .ql-list-bullet {
+  list-style-type: disc;
+}
+.ql-editor .ql-list-checked {
+  list-style-type: none;
+}
+.ql-editor .ql-list-checked li::before {
+  content: "✔ ";
+}
+
+/* Indent */
+.ql-indent-1 {
+  padding-left: 3em;
+}
+.ql-indent-2 {
+  padding-left: 6em;
+}
+.ql-indent-3 {
+  padding-left: 9em;
+}
+.ql-indent-4 {
+  padding-left: 12em;
+}
+.ql-indent-5 {
+  padding-left: 15em;
+}
+
+/* Blockquote */
+.ql-editor blockquote {
+  border-left: 4px solid #ccc;
+  margin: 0;
+  padding-left: 16px;
+  color: #666;
+}
+
+/* Code block */
+.ql-editor pre.ql-code-block {
+  background: #f4f4f4;
+  padding: 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* Inline code */
+.ql-editor code {
+  background: #eee;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-family: monospace;
+}
+
+/* Links */
+.ql-editor a {
+  color: #06c;
+  text-decoration: underline;
+}
+
+/* Images */
+.ql-editor img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Video */
+.ql-editor iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+/* Sizes */
+.ql-size-small {
+  font-size: 0.75em;
+}
+.ql-size-large {
+  font-size: 1.5em;
+}
+.ql-size-huge {
+  font-size: 2.5em;
+}
+
+/* Colors */
+.ql-color-red {
+  color: red;
+}
+.ql-color-blue {
+  color: blue;
+}
+.ql-color-green {
+  color: green;
+}
+.ql-color-yellow {
+  color: #ffc107;
+}
+.ql-color-purple {
+  color: purple;
+}
+.ql-color-black {
+  color: black;
+}
+.ql-color-white {
+  color: white;
+}
+
+/* Background colors */
+.ql-bg-red {
+  background: red;
+}
+.ql-bg-blue {
+  background: blue;
+}
+.ql-bg-green {
+  background: green;
+}
+.ql-bg-yellow {
+  background: #ffc107;
+}
+.ql-bg-purple {
+  background: purple;
+}
+.ql-bg-black {
+  background: black;
+}
+.ql-bg-white {
+  background: white;
+}
+
+/* Direction (RTL/LTR) */
+.ql-direction-rtl {
+  direction: rtl;
+  text-align: right;
+}
+.ql-direction-ltr {
+  direction: ltr;
+  text-align: left;
+}

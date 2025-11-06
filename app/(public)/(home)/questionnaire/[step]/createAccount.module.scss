@@ -1,0 +1,266 @@
+ .createWithGoogle {
+   display: flex;
+   justify-content: center;
+    .googleBtn {
+        font-size: 16px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(34, 28, 84);
+        font-family: Roboto, sans-serif;
+        margin-right: 9px;
+        margin-top: 1px;
+        height: 43px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(227, 227, 227);
+        border-image: initial;
+        border-radius: 4px;
+        padding: 8px 19px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+}
+.formContainer {
+    max-width: 350px;
+    background: #ffffff;
+
+   margin: 0 auto;
+   small{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: rgb(142, 137, 160);
+   }
+        .formFloating {
+            position: relative;
+            max-width: 100%;
+            margin-bottom: 32px !important;
+
+            input {
+                width: 100%;
+                border: none;
+                height: 50px;
+                min-height: 50px;
+                padding: 19px 0 4px;
+                font-size: 16px;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+                outline: none;
+                border-radius: 0;
+                font-family: "Roboto",sans-serif;
+                font-size: 18px;
+                color: #221c54c9;
+
+                &::placeholder {
+                    color: transparent;
+                }
+
+            }
+            input{
+                &:hover{
+                    border-bottom: 2px solid #1f204a;
+                }
+                &:focus {
+                    border-bottom: 2px solid #1f204a;
+                    box-shadow: none;
+                }
+            }
+            input{
+                &:hover, &:focus {
+                    padding: 19px 0 3px;
+                }
+
+            }
+            label {
+                position: absolute;
+                top: 20px;
+                color: #6b6473;
+                height: 30px;
+                font-size: 17px;
+                pointer-events: none;
+                background: transparent;
+                padding: 0;
+                letter-spacing: -0.32px;
+                transition: 0.2s ease all;
+                font-family: "Roboto", sans-serif;
+            }
+
+            input:focus + label,
+            input:not(:placeholder-shown) + label{
+                top: 3px;
+                font-size: 14px;
+                color: #1f204a;
+                margin-bottom: 0;
+            }
+            input::placeholder,
+            textarea::placeholder {
+                color: transparent;
+            }
+        }
+       
+    
+}
+ .btnContinue {
+    background-color: #8E89A0;
+    min-width: 200px;
+    min-height: 43px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #8E89A0;
+    border-radius: 9999px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+.createAccountHeading{
+    margin:0 0 10px;
+    font-weight: 500;
+    font-size: 24.4px;
+    line-height: 33.5px;
+    letter-spacing: -0.92px;
+    color: rgb(34, 28, 84);
+    text-align: center;
+    font-family: "mark_promedium",sans-serif;
+}
+.createAccountDescription{
+    font-size: 0.9375rem;
+    color: rgb(34, 28, 84);
+    margin: 0 0 40px;
+    line-height: 1.3;
+    text-align: center;
+    font-family: "freight", sans-serif;
+}
+.createAccountWrapper{
+    max-width: 400px;
+    margin: 120px auto;
+    padding-inline:10px;
+}
+.logoSelection{
+    text-align: center;
+    padding: 36px 0 17px 0;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    width: 196px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+        top: 65%;
+        left: 0;
+        width: 78px;
+        height: 1px;
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #B3ADBA;
+    }
+    &::after {
+        top: 65%;
+        right: 0;
+        width: 78px;
+        height: 1px;
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #B3ADBA;
+    }
+}
+.backBtn{
+    font-weight: 500;
+    font-size: 0.8125rem;
+    color: rgb(34, 28, 84);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+}
+.ratingGoogle{
+    font-size: 0.75rem;
+    color: rgb(78, 73, 118);
+    font-family: "mark_promedium",sans-serif;
+}
+.goodWill{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    svg{
+        fill:rgb(142, 137, 160);
+    }
+ 
+}
+.goodWillDescription,
+.goodWill span{
+    font-size: 0.625rem;
+    color: rgb(142, 137, 160);
+    line-height: 1.3;
+    font-family: "mark_promedium",sans-serif;
+}
+.goodWillDescription{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.faq{
+    background-color: rgb(97, 86, 187);
+    position: fixed;
+    top: 56px;
+    right: 0;
+    height: calc(100vh - 56px);
+    padding-left: 3px;
+    width: 370px;
+    display: none;
+    h3{
+        margin: 0px;
+       font-size: 1.375rem;
+       letter-spacing: -0.042rem;
+       font-weight: 500;
+       line-height: 1.235;
+        text-align:center;
+        color:#fff;
+        padding:30px;
+        font-family: "Roboto", sans-serif;
+       }
+       .innerFaq{
+        background-color: #fff;
+        height: 100%;
+        padding: 2rem 2rem 7rem;
+         border-radius: 5px 0 0 0;
+         ul{
+             list-style: none;
+             padding: 0;
+             li{
+             color: rgb(76, 70, 121);
+             font-weight: 500;
+             font-size: 18px;
+             margin-bottom: 20px;
+             font-family: "Roboto", sans-serif;
+             }
+         }
+    
+       }
+}
+.footer{
+    border-radius: 6px;
+    border-bottom: 5px solid rgb(200, 195, 232);
+    background-color: rgb(234, 232, 246);
+    padding: 1rem;
+    strong{
+        font-weight: bold;
+        font-size: 1.125rem;
+        color: rgb(88, 81, 122);
+        font-family: "Roboto", sans-serif;
+    }
+    p{
+        font-weight: normal;
+        font-size: 1rem;
+        color: rgb(34, 28, 84);
+        font-family: "Roboto", sans-serif;
+    }
+}

@@ -1,0 +1,218 @@
+.client_document {
+  padding: 8rem 4rem;
+  background-color: #faf5ec;
+
+  .document_container {
+    max-width: calc(810px + 4rem);
+    margin: 0 auto;
+  }
+
+  .heading {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(34, 28, 84);
+    line-height: 1.167;
+    letter-spacing: -0.045rem;
+    font-family: "mark_promedium", sans-serif;
+    text-align: center;
+  }
+
+  .description {
+    font-family: "freight", serif;
+    font-weight: normal;
+    font-size: 1.05rem;
+    color: rgb(34, 28, 84);
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .document_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+
+  .document_card {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.33% - 19px);
+    min-height: 323px;
+    // border: 2px dashed #b3adba;
+    border-radius: 12px;
+    padding: 0.9rem 1.2rem;
+    background-color: #fff;
+  }
+
+  .document_card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .generic_heading_style {
+    margin: 0px 0px 1.25rem;
+    font-size: 1.375rem;
+    letter-spacing: -0.042rem;
+    font-family: "mark_promedium", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: #221c54;
+  }
+
+  .generic_subheading_style {
+    font-family: "freight", serif;
+    font-size: 1rem;
+    color: rgb(34, 28, 84);
+    line-height: 1.3;
+  }
+
+  .questionnaire_btn {
+    border-radius: 9999px;
+    font-size: 1rem;
+    background-color: rgb(227, 118, 69);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0.65rem 1.3rem;
+    margin-bottom: 4rem;
+    font-family: "Roboto", sans-serif;
+
+    &:hover,
+    &:active {
+      background-color: #e0662f;
+      color: #fff !important;
+    }
+  }
+
+  .document_title {
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #221c54;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .document_description {
+    font-family: freight, serif;
+    font-weight: normal;
+    font-size: 1.03125rem;
+    color: #221c54;
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .reject-btn {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 0.4rem 1.3rem;
+    border-radius: 50px;
+    background-color: #dc3545 !important;
+    /* red */
+    color: #fff !important;
+    /* white text */
+    border: none !important;
+    /* remove border */
+  }
+
+  .gray_btn {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 0.4rem 1.3rem;
+    border-radius: 50px;
+    background-color: #ead7b6 !important;
+
+    &:hover {
+      border-color: #f3f3f3 !important;
+    }
+  }
+}
+
+.pending-btn {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0.4rem 1.3rem;
+  border-radius: 50px;
+  background-color: #ff8800 !important;
+  /* darker yellow */
+  color: #fff !important;
+  /* white font */
+  border: none !important;
+  /* remove border */
+
+  &:disabled {
+    background-color: #ff8800 !important;
+    /* keep the same color */
+    color: #fff !important;
+    /* keep the same font color */
+    opacity: 1 !important;
+    /* prevent dullness */
+  }
+}
+
+.pending-btn {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0.4rem 1.3rem;
+  border-radius: 50px;
+  background-color: #ff8800 !important;
+  /* darker yellow */
+  color: #fff !important;
+  /* white font */
+  border: none !important;
+  /* remove border */
+
+  &:disabled {
+    background-color: #ff8800 !important;
+    /* keep the same color */
+    color: #fff !important;
+    /* keep the same font color */
+    opacity: 1 !important;
+    /* prevent dullness */
+  }
+}
+
+.pending-payment-btn {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0.4rem 1.3rem;
+  border-radius: 50px;
+  background-color: #0048ff !important;
+  color: #fff !important;
+  border: none !important;
+  width: 100%;
+
+  &:disabled {
+    background-color: #0048ff !important;
+    color: #fff !important;
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 711px) {
+  .client_document {
+    padding: 6rem 2rem;
+  }
+
+  .client_document .document_card {
+    flex: 0 0 calc(50% - 14px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .client_document .document_card {
+    flex: 0 0 100%;
+  }
+}

@@ -1,0 +1,266 @@
+p,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+.contact-us {
+    padding: 15px 16px;
+    display: flex;
+    background-color: #FAF5EC;
+    justify-content: center;
+    margin-top: 64px;
+    
+    .contact-us-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 55px 0;
+        .heading{
+            text-align: center;
+            margin-bottom: 51px;
+        }
+        .label {
+            margin: 0px;
+            width: 100%;
+            padding-bottom: 5px;
+            display: block;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: roboto, "roboto Fallback", sans-serif;
+            text-align: center;
+        }
+        .generic-heading{
+            font-size: 27px;
+        }
+        .form-container {
+            width: 600px;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 32px 56px 56px;
+            margin-bottom: 48px;;
+            .contact-form {
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                .form-floating {
+                    position: relative;
+                    max-width: 100%;
+                    margin-bottom: 32px !important;
+
+                    input,
+                    textarea,
+                    select {
+                        width: 100%;
+                        border: none;
+                        height: 50px;
+                        min-height: 50px;
+                        padding: 19px 0 4px;
+                        font-size: 16px;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+                        outline: none;
+                        border-radius: 0;
+                        font-family: 'freight', 'freight Fallback', serif;
+                        font-size: 18px;
+                        color: #221c54c9;
+
+                        &::placeholder {
+                            color: transparent;
+                        }
+
+                    }
+                    input,
+                    textarea{
+                        &:hover{
+                            border-bottom: 2px solid #1f204a;
+                        }
+                        &:focus {
+                            border-bottom: 2px solid #1f204a;
+                            box-shadow: none;
+                        }
+                    }
+                    input{
+                        &:hover, &:focus {
+                            padding: 19px 0 3px;
+                        }
+
+                    }
+                    label {
+                        position: absolute;
+                        top: 18px;
+                        color: #6b6473;
+                        height: 30px;
+                        font-size: 17px;
+                        pointer-events: none;
+                        background: transparent;
+                        padding: 0;
+                        letter-spacing: 0.3px;
+                        transition: 0.2s ease all;
+                        font-family: freight, "freight Fallback", serif;
+                    }
+
+                    input:focus + label,
+                    input:not(:placeholder-shown) + label,{
+                        top: 3px;
+                        font-size: 15px;
+                        color: #1f204aa8;
+                        left: -3px;
+                    }
+                    textarea:focus + label,
+                    textarea:not(:placeholder-shown) + label {
+                        left: 7px;
+                        background-color: #fff;
+                        top: -3px;
+                        font-size: 14px;
+                        padding: 0px 3px 0 6px;
+                        letter-spacing: 0.6px;
+                    }
+                    select:focus + label {
+                        top: -2px;
+                        font-size: 14px;
+                        color: #1f204a;
+                        left: 12px;
+                    }
+                    input::placeholder,
+                    textarea::placeholder {
+                        color: transparent;
+                    }
+                }
+                .text-field{
+                    margin-bottom: 29px !important;
+                    textarea{
+                        min-height: fit-content;
+                        border: 1px solid rgb(0 0 0 / 26%);
+                        border-radius: 4px;
+                        padding: 16px 13px 0px;
+                        min-height: 133px;
+                        &:focus{
+                            border: 2px solid #1f204a !important;
+                            padding: 15px 12px 8px;
+                        }
+                        &:hover{
+                            border: 1px solid #1f204a;
+                        }
+                    }
+                    label{
+                        left: 13px;
+                        top: 14px;
+                    }
+                }
+                .select-field{
+                    background-color: #f0f0f0;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+                    &:hover{
+                        border-bottom: 1px solid #1f204a;
+                    }
+                    &:focus {
+                        border-bottom: 2px solid #1f204a;
+                        box-shadow: none;
+                    }
+                    select{
+                        background-color: transparent;
+                        min-height: 58px;
+                        padding: 18px 13px 0;
+                        color: #221c54c9;
+                        border-bottom: none;
+                        cursor: pointer;
+                        &:focus{
+                            box-shadow: none;
+                        }
+                    }
+                    .selected + label {
+                        top: -2px;
+                        font-size: 14px;
+                        left: 12px;
+                        letter-spacing: 0.8px;
+                    }
+                    label{
+                        font-size: 21px;
+                        left: 10px;
+                        margin-bottom: 0;
+                        top: 22px;
+                        font-family: 'freight','freight Fallback',serif;
+                    }
+                }
+                .submit-wrap {
+                    display: flex;
+                    justify-content: center;
+
+                    .submit-btn {
+                        width: 100%;
+                        max-width: 100%;
+                        padding: 10px 0;
+                        border: none;
+                        background: #221C54;
+                        color: #fff;
+                        font-weight: 600;
+                        font-size: 15px;
+                        letter-spacing: -0.2px;
+                        border-radius: 999px;
+                        cursor: pointer;
+                        transition: 0.25s ease;
+                        text-transform: none;
+
+                        &:hover {
+                            background-color: rgb(23, 19, 58);
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .contact-footer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.2;
+            .generic-description{
+                margin-right: 0;
+                padding-bottom: 0;
+            }
+            .call-btn-wrapper {
+                margin: 8px 0;
+
+                .call--btn {
+                    background: #1f204a;
+                    color: #fff;
+                    border: none;
+                    border-radius: 999px;
+                    cursor: pointer;
+                    transition: 0.25s ease;
+                    font-family: 'roboto', 'roboto Fallback', sans-serif;
+                    text-transform: none;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 1.75;
+                    min-width: 64px;
+                    padding: 6px 16px;
+
+                    &:hover {
+                        filter: brightness(1.05);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us {
+        margin-top: 54px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .contact-us {
+        .contact-us-container {
+            .form-container {
+                width: 100%;
+            }
+            .form-container{
+                padding: 32px 20px 56px;
+            }
+        }
+    }
+}

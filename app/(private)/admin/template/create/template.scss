@@ -1,0 +1,54 @@
+.icon-hover {
+  color: #8c8383;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.icon-hover:hover {
+  color: #4A22BD;
+}
+
+.disabled-icon {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.accordion-wrapper {
+  border: 1px solid #dee2e6;
+  .accordion-body .btn-outline-warning{
+    margin-left: .75rem;
+  }
+}
+
+.accordion-header:hover {
+  background-color: #e2e6ea;
+}
+.main-heading{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+.dropdown-options{
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 30px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  max-width: 300px;
+  width: 100%;
+}
+.list-structure .list-group-item.active{
+  background-color: #4A22BD;
+  border-color: #4A22BD;
+  svg{
+    fill: #fff;
+  }
+}
+.option-box{
+  padding-inline: 11px;
+}
+.min-width-100{
+  min-width: 100%;
+}

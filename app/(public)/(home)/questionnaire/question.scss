@@ -1,0 +1,87 @@
+.main-wrapper {
+  background-color: #faf5ec;
+  // overflow-y: auto;
+  padding-block: 8rem;
+  min-height: 100vh;
+  .question-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    .q-flex-wrapper {
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 60px;
+    }
+  }
+  .question-title {
+    text-align: center;
+    font-family: "mark_promedium";
+    color: rgb(34, 28, 84);
+    margin-bottom: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 24.4px;
+    line-height: 33.5px;
+    letter-spacing: -0.92px;
+  }
+}
+.title-wrapper {
+  margin-bottom: 2.9rem;
+}
+.question-tiles {
+  width: 16rem;
+  height: 8.7rem;
+  padding: 5px 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff !important;
+  border: 2px solid rgb(234, 232, 246) !important;
+  border-radius: 0.5rem !important;
+  flex-direction: column;
+  font-family: roboto, "roboto Fallback", sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--variant-outlinedColor, #221c54);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border: 2px solid rgb(200, 195, 232) !important;
+  }
+}
+.question-label {
+  font-family: "freighttextprfreighttextproBk";
+  font-weight: normal;
+  font-size: 0.9375rem;
+  color: rgb(34, 28, 84);
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-button {
+  cursor: pointer;
+  font-family: roboto, sans-serif;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  background-color: var(--variant-textBg);
+  border-width: 0px;
+  border-radius: 2px;
+  padding: 6px 8px;
+  color: #58517a;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  svg {
+    margin: 0 8px 0 -4px;
+    width: 1em;
+    height: 1em;
+    fill: #58517a;
+  }
+  &:hover {
+    background-color: rgba(88, 81, 122, 0.05);
+  }
+}

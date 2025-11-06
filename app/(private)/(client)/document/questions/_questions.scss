@@ -1,0 +1,392 @@
+.main-wrapper {
+  background-color: #faf5ec;
+  padding-block: 6rem;
+  height: 100%;
+  color: #221c54;
+  min-height: 100vh;
+
+  .question-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ps-2 {
+    padding: 0 !important;
+
+    ~label {
+      color: #202020 !important;
+      margin-block: 10px;
+      font-family: "mark_promedium" !important;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0 !important;
+    font-family: "mark_promedium";
+  }
+
+  .question-title {
+    text-align: center;
+    font-family: "mark_promedium";
+    color: rgb(34, 28, 84);
+    margin-bottom: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 24.4px;
+    line-height: 33.5px;
+    letter-spacing: -0.92px;
+  }
+
+  font-family: roboto,
+  sans-serif;
+
+  .back-btn {
+    margin-left: 20px;
+    background-color: rgb(63, 57, 110);
+  }
+
+  form {
+    // padding: 0 3.5rem;
+    transition: all 0.3s ease-in-out;
+    width: 120%;
+
+    .btn-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .steps-btn {
+      border-radius: 9999px;
+      max-width: 200px;
+      font-size: 1rem;
+      background-color: rgb(34, 28, 84);
+      color: rgb(255, 255, 255);
+      padding: 0.57rem 1.3rem;
+      border: none;
+      min-width: 64px;
+      width: 100%;
+      outline: none;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover {
+        background-color: rgb(63, 57, 110);
+      }
+    }
+
+    .question-form-wrapper {
+      position: relative;
+      margin-bottom: 1.4rem !important;
+
+      label {
+        position: absolute;
+        top: 15px;
+        left: 0;
+        color: rgb(88, 81, 122);
+        font-family: "freight", "freight Fallback", serif;
+        line-height: 1.4375em;
+        pointer-events: none;
+        background: transparent;
+        letter-spacing: 0.3px;
+        transition: 0.2s ease all;
+      }
+
+      input:not([type="checkbox"]):not([type="radio"]),
+      textarea,
+      select {
+        width: 100%;
+        border: none !important;
+        padding: 19px 0 7px;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+        background: transparent;
+        transition: border-color 0.25s;
+        border-radius: unset !important;
+        height: 50px;
+
+        &:hover {
+          border-bottom: 2px solid #1f204a !important;
+        }
+
+        &:focus {
+          border-bottom: 2px solid #1f204a !important;
+          box-shadow: none;
+          outline: none;
+        }
+
+        &:focus~label,
+        &:not(:placeholder-shown)~label {
+          top: 0px;
+          font-size: 14px;
+          color: #1f204a;
+        }
+      }
+    }
+
+    input[type="checkbox"]~label,
+    input[type="radio"]~label {
+      position: static;
+    }
+  }
+}
+
+.text-field {
+  background-color: #faf5ec;
+  color: #000;
+  border: 1px solid #ccc;
+  height: 60px;
+
+  font-size: 1.1rem;
+  border-radius: 0;
+  padding: 0 10px;
+}
+
+.text-field:focus {
+  color: #000;
+  background-color: #faf5ec;
+}
+
+.select-field {
+  background-color: #faf5ec;
+  color: #000;
+  border: 1px solid #ccc;
+  height: 60px;
+  font-size: 1.1rem;
+  border-radius: 0;
+  padding: 0 10px;
+}
+
+.select-field:focus {
+  color: #000;
+  background-color: #faf5ec;
+}
+
+.custom-checkbox {
+  transform: scale(1.4);
+  margin-right: 8px;
+}
+
+
+
+// admin side css for styling
+
+.main-wrapper-admin {
+  background-color: #ffffff;
+  padding-block: 2rem;
+  height: 100%;
+  color: #000000;
+  min-height: 100vh;
+
+  .question-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ps-2 {
+    padding: 0 !important;
+
+    ~label {
+      color: #000000 !important;
+      margin-block: 10px;
+      font-family: "mark_promedium" !important;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0 !important;
+    font-family: "mark_promedium";
+  }
+
+  .question-title {
+    text-align: center;
+    font-family: "mark_promedium";
+    color: rgb(34, 28, 84);
+    margin-bottom: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 24.4px;
+    line-height: 33.5px;
+    letter-spacing: -0.92px;
+  }
+
+  font-family: roboto,
+  sans-serif;
+
+  .back-btn {
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  form {
+    // padding: 0 3.5rem;
+    transition: all 0.3s ease-in-out;
+    width: 120%;
+
+    .btn-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .text-field {
+      background-color: #ffffff;
+      color: #000;
+      border: 1px solid #ccc;
+      height: 50px;
+
+      font-size: 1.1rem;
+      border-radius: 10px;
+      padding: 0 10px;
+    }
+
+    .select-field {
+      background-color: #ffffff;
+      color: #000;
+      border: 1px solid #ccc;
+      height: 50px;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      padding: 0 10px;
+    }
+
+    .steps-btn {
+      border-radius: 9999px;
+      max-width: 200px;
+      font-size: 1rem;
+      background-color: #7428f2;
+      color: rgb(255, 255, 255);
+      padding: 0.57rem 1.3rem;
+      border: none;
+      min-width: 64px;
+      width: 100%;
+      outline: none;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover {
+        background-color: rgb(63, 57, 110);
+      }
+    }
+
+    .question-form-wrapper {
+      position: relative;
+      margin-bottom: 1.4rem !important;
+
+      label {
+        position: absolute;
+        top: 15px;
+        left: 0;
+        color: rgb(0, 0, 0);
+        font-family: "freight", "freight Fallback", serif;
+        line-height: 1.4375em;
+        pointer-events: none;
+        background: transparent;
+        letter-spacing: 0.3px;
+        transition: 0.2s ease all;
+      }
+
+      input:not([type="checkbox"]):not([type="radio"]),
+      textarea,
+      select {
+        width: 100%;
+        border: none !important;
+        padding: 19px 0 7px;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+        background: transparent;
+        transition: border-color 0.25s;
+        border-radius: unset !important;
+        height: 50px;
+
+        &:hover {
+          border-bottom: 2px solid #1f204a !important;
+        }
+
+        &:focus {
+          border-bottom: 2px solid #1f204a !important;
+          box-shadow: none;
+          outline: none;
+        }
+
+        &:focus~label,
+        &:not(:placeholder-shown)~label {
+          top: 0px;
+          font-size: 14px;
+          color: #1f204a;
+        }
+      }
+    }
+
+    input[type="checkbox"]~label,
+    input[type="radio"]~label {
+      position: static;
+    }
+  }
+}
+
+// .question-label {
+//     font-family: "freighttextprfreighttextproBk";
+//     font-weight: normal;
+//     font-size: 0.9375rem;
+//     color: rgb(34, 28, 84);
+// }
+
+// .bck {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+// }
+
+// .back-button {
+//     display: inline-flex;
+//     -webkit-box-align: center;
+//     align-items: center;
+//     -webkit-box-pack: center;
+//     justify-content: center;
+//     position: relative;
+//     box-sizing: border-box;
+//     -webkit-tap-highlight-color: transparent;
+//     cursor: pointer;
+//     user-select: none;
+//     vertical-align: middle;
+//     appearance: none;
+//     font-family: roboto, sans-serif;
+//     text-transform: none;
+//     font-weight: 500;
+//     font-size: 0.875rem;
+//     line-height: 1.75;
+//     min-width: 64px;
+//     color: var(--variant-textColor);
+//     background-color: var(--variant-textBg);
+//     --variant-textColor: #221C54;
+//     --variant-outlinedColor: #221C54;
+//     --variant-outlinedBorder: rgba(34, 28, 84, 0.5);
+//     --variant-containedColor: #fff;
+//     --variant-containedBg: #221C54;
+//     box-shadow: none;
+//     outline: 0px;
+//     margin: 0px;
+//     text-decoration: none;
+//     border-width: 0px;
+//     border-style: initial;
+//     border-color: initial;
+//     border-image: initial;
+//     border-radius: 2px;
+//     padding: 6px 8px;
+//     color: #58517a;
+//     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     svg {
+//         margin-right: 8px;
+//         margin-left: -4px;
+//         width: 1em;
+//         height: 1em;
+//         fill: #58517a;
+//     }
+
+//     &:hover {
+//         background-color: rgba(88, 81, 122, 0.05);
+//     }
+// }
